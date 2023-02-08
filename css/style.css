@@ -9137,15 +9137,23 @@ h1, h2, h3, h4, h5,
   box-shadow: none !important;
   font-size: 14px; }
   .btn:hover, .btn:active, .btn:focus {
-    outline: none; }
+    outline: #004085; }
   .btn.btn-primary {
-    background: linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%) !important;
-    border: 1px solid linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%) !important;
+    background: transparent;
+    border: 5px solid linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
     color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
-      background: transparent;
+      border: 5px solid linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+      background: linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
       color: linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%); }
+      .btn.btn-primary-black {
+        background: transparent;
+        border: 5px solid linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+        color: #000 !important; }
+        .btn.btn-primary-black:hover {
+          border: 5px solid linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+          background: linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+          color: linear-gradient(to right, #ff3cac 0%, #784ba0 50%, #2b86c5 100%); }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #d1002c;
       background: transparent;
@@ -10266,3 +10274,48 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .modal .modal-header button {
+      margin: auto;
+      padding: 0px 8px 5px 8px;
+      font-size: 25px;
+      border-radius: 20px;
+      background: #00CED1;
+      color: #fff;
+  }
+  
+  .modal .modal-body img {
+      height: 100%;
+      width: 100%;
+  }
+  
+  .modal .modal-body h2 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  
+  .modal .modal-body p {
+      margin-bottom: 15px;
+  }
+  
+  .modal .modal-body .modal-link {
+      position: relative;
+      text-align: center;
+  }
+  
+  .modal .modal-body a {
+      display: inline-block;
+      margin: 50px;
+      padding: 8px 30px;
+      background: #222222;
+      color: #00CED1;
+      cursor: pointer;
+      border: none;
+  }
+  
+  .modal .modal-body a:hover {
+      color: #222222;
+      background: #00CED1;
+  }
+
+  
